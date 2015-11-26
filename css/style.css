@@ -1,11 +1,70 @@
-body {
-  margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: BebasNeueBold;
+    src: url('../fonts/BebasNeue Bold.otf');
 }
 
-canvas {
-  display: block;
-  vertical-align: bottom;
+@font-face {
+    font-family: BebasNeueBook;
+    src: url('../fonts/BebasNeue Book.otf');
+}
+
+@font-face {
+    font-family: BebasNeueLight;
+    src: url('../fonts/BebasNeue Light.otf');
+}
+
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url('../fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+    font-family: BebasNeueThin;
+    src: url('../fonts/BebasNeue Thin.otf');
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url('../fonts/MyriadPro-Regular.otf');
+}
+
+body {
+    margin: 0;
+    font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: block;
+}
+
+.clear {
+    padding: 2.875em 1.875em 1.875em;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    width: 600px;
+    height: 300px;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -300px;
+    text-align: center;
+}
+
+.name {
+    color: white;
+    font-family: BebasNeueRegular;
+    font-size: 4.25em;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 400;
+}
+
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
 }
 
 /* ---- particles.js container ---- */
