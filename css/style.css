@@ -53,11 +53,37 @@ body {
 
 .name {
     color: white;
-    font-family: BebasNeueRegular;
-    font-size: 4.25em;
-    line-height: 1.5;
+    font-family: BebasNeueLight;
+    font-size: 10em;
+    line-height: 1;
     margin: 0;
     font-weight: 400;
+}
+
+hr {
+    display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 80%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff;
+}  
+
+.intro {
+    color: white;
+    font-family: BebasNeueRegular;
+    font-size: 2.25em;
+    line-height: 2;
+    margin: 0;
+    font-weight: 200;
+    opacity: 0.6;
 }
 
 .section-1 {
