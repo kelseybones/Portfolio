@@ -45,19 +45,36 @@ body {
     top: 50%;
     width: 600px;
     height: 300px;
-    left: 47%;
+    left: 50%;
     margin-top: -150px;
     margin-left: -300px;
     text-align: center;
 }
 
-.name {
+.clear.grey {
+    background-color: white;
+    height: 60%;
+    top: 40%;
+}
+
+h1 {
     color: white;
     font-family: BebasNeueLight;
     font-size: 10em;
     line-height: 1;
     margin: 0;
     font-weight: 400;
+}
+
+h2 {
+    color: #6e6e6e;
+    font-family: BebasNeueRegular;
+    font-size: 4em;
+    line-height: 2;
+    margin: 0;
+    font-weight: 200;
+    opacity: 0.6;
+    letter-spacing: 1px;
 }
 
 hr {
@@ -85,6 +102,50 @@ hr {
     font-weight: 200;
     opacity: 0.6;
     letter-spacing: 1px;
+}
+
+.section-1 {
+    width: 100%;
+    height: 97vh;
+    position: relative;
+}
+
+.social {
+    padding-right: 50px;   
+}
+
+.social a {
+    opacity: 0.3;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.social a:hover {
+    opacity: 0.8;
+}
+
+.social li {
+    display: inline;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.social li img {
+    width: 50px;
+}
+
+.section-2 {
+    width: 100%;
+    height: 97vh;
+    position: relative;
+    background-color: #c0c0c0;
+}
+
+.section-3 {
+    width: 100%;
+    height: 97vh;
+    position: relative;
 }
 
 /* ---- fade in animation ---- */
@@ -128,66 +189,6 @@ hr {
 
 
 /* ----end ---- */
-
-.section-1 {
-    width: 100%;
-    height: 95vh;
-    position: relative;
-}
-
-.section-2 {
-    width: 100%;
-    height: 95vh;
-    position: relative;
-    text-align: center;
-    background-color: #6e6e6e;
-}
-
-.aboutMe {
-    background-color: white;
-    width: 700px;
-    height: 400px;
-    padding: 2.875em 1.875em 1.875em;
-    position: absolute;
-    z-index: 1000;
-    text-align: center;
-    vertical-align: middle;
-    top: 20%;
-    left: 25%;
-}
-
-
-h2 {
-    color: #6e6e6e;
-    font-family: BebasNeueRegular;
-    font-size: 4em;
-    line-height: 2;
-    margin: 0;
-    font-weight: 200;
-    opacity: 0.6;
-    letter-spacing: 1px;
-}
-
-.social a {
-    opacity: 0.3;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
-}
-
-.social a:hover {
-    opacity: 0.8;
-}
-
-.social li {
-    display: inline;
-    margin: 10px;
-    color: #ffffff;
-}
-
-.social li img {
-    width: 50px;
-}
 
 /* ---- particles.js container ---- */
 
