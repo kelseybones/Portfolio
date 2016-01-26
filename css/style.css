@@ -39,7 +39,7 @@ h1 {
   letter-spacing: 2px;
 }
 h2 {
-  font-size: 1.8em;
+  font-size: 1.4em;
   font-family: BebasNeueBold;
 }
 h3 {
@@ -59,6 +59,9 @@ p {
 }
 q {
   font-size: 1.6em;
+}
+a:hover {
+  opacity: 0.8;
 }
 .align-left {
   text-align: left;
@@ -295,6 +298,8 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.row .column33.national {
   background-image: url(../images/ng.png);
   background-size: cover;
 }
@@ -304,4 +309,12 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.row .row50.corporate {
+  background-image: url(../images/corporate.png);
+  background-size: cover;
+}
+.row .row50.space {
+  background-image: url(../images/space.png);
+  background-size: cover;
 }

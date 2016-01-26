@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.8em;
+	font-size: 1.4em;
     font-family: BebasNeueBold;
 }
 
@@ -73,6 +73,10 @@ p {
 
 q {
 	font-size: 1.6em;
+}
+
+a:hover {
+    opacity: 0.8;
 }
 
 .align-left {
@@ -330,16 +334,29 @@ hr {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(../images/ng.png);
-        background-size: cover;
+        
+        &.national {
+            background-image: url(../images/ng.png);
+            background-size: cover;
+        }
     }
-    
+        
     .row50 {
         width: 100%;
         flex: 1;
         display: flex;
         justify-content: center;
         align-items: center;
+        
+        &.corporate {
+            background-image: url(../images/corporate.png);
+            background-size: cover;
+        }
+        
+        &.space {
+            background-image: url(../images/space.png);
+            background-size: cover;
+        }
     }
 
 }
