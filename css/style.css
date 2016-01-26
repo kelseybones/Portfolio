@@ -60,9 +60,6 @@ p {
 q {
   font-size: 1.6em;
 }
-a:hover {
-  opacity: 0.8;
-}
 .align-left {
   text-align: left;
 }
@@ -292,6 +289,18 @@ hr {
   align-items: center;
   background-image: url(../images/mockup.png);
   background-size: cover;
+}
+.row .column66 .hover {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+}
+.row .column66:hover .hover {
+  transition: opacity 0.25s ease-in-out;
+  opacity: 0.8;
 }
 .row .column33 {
   flex: 1;
