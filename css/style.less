@@ -75,6 +75,10 @@ q {
 	font-size: 1.6em;
 }
 
+a {
+    text-decoration: none;
+}
+
 .align-left {
 	text-align: left;
 }
@@ -380,8 +384,16 @@ hr {
 .section-3 {
     height: 100%;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     background-color: white;
+    
+    a {
+        color: black;
+        
+        &:hover {
+            color: navy;
+        }
+    }
 }
 
 
@@ -393,8 +405,13 @@ hr {
 	margin: 0;
 }
 
-.boxLeft h1 {
+.boxLeft h2 {
     color: black;
-    font-family: BebasNeueBook;
+    font-family: BebasNeueBold;
     font-size: 2.2em;
+}
+
+.section-4 {
+    background-color: black;
+    color: white;
 }
