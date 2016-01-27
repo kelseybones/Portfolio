@@ -53,15 +53,13 @@ h2 {
 }
 
 h3 {
-	font-size: 1.8em;
+    font-size: 1.6em;
+    font-family: BebasNeueBold;
+    text-decoration: underline;
 }
 
 h4 {
-	font-size: 1.6em;
-}
-
-h5 {
-	font-size: 1.4em;
+    font-size: 1.4em;
     font-family: MyriadPro;
     color: dimgrey;
 }
@@ -100,8 +98,8 @@ a {
     width: 600px;
     height: 300px;
     left: 50%;
-    margin-top: -150px;
-    margin-left: -300px;
+    margin-top: -155px;
+    margin-left: -310px;
     text-align: center;
 }
 
@@ -176,11 +174,8 @@ hr {
 .section-1 {
     width: 100%;
     height: 97vh;
+    min-height: 500px;
     position: relative;
-}
-
-.social {
-    padding-right: 50px;   
 }
 
 .social a {
@@ -286,6 +281,7 @@ hr {
     width: 100%;
     height: 500px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     
     .vertical-flow {
@@ -312,6 +308,7 @@ hr {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
         
     .row50 {
@@ -332,12 +329,15 @@ hr {
         background:#fff; 
         opacity:0;
         transition: opacity .25s ease-in-out;
+        text-align: center;
     }
 
     
     .project-weather {
         background-image: url(../images/mockup.png);
         background-size: cover;
+        min-width: 500px;
+        min-height: 500px;
     
        &:hover {
             .hover {
@@ -349,6 +349,8 @@ hr {
     .project-national {
         background-image: url(../images/ng.png);
         background-size: cover;
+        min-width: 400px;
+        min-height: 400px;
         
        &:hover {
             .hover {
@@ -360,6 +362,8 @@ hr {
     .project-corporate {
         background-image: url(../images/corporate.png);
         background-size: cover;
+        min-height: 200px;
+        min-width: 300px;
         
         &:hover {
             .hover {
@@ -371,6 +375,8 @@ hr {
     .project-space {
         background-image: url(../images/space.png);
         background-size: cover;
+        min-height: 200px;
+        min-width: 300px;
         
         &:hover {
             .hover {
