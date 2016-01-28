@@ -1,0 +1,119 @@
+@font-face {
+    font-family: BebasNeueBold;
+    src: url('../fonts/BebasNeue Bold.otf');
+}
+
+@font-face {
+    font-family: BebasNeueBook;
+    src: url('../fonts/BebasNeue Book.otf');
+}
+
+@font-face {
+    font-family: BebasNeueLight;
+    src: url('../fonts/BebasNeue Light.otf');
+}
+
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url('../fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+    font-family: BebasNeueThin;
+    src: url('../fonts/BebasNeue Thin.otf');
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url('../fonts/MyriadPro-Regular.otf');
+}
+
+body {
+    margin: 0;
+    font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+h1 {
+	font-size: 2.2em;
+	font-family:  BebasNeueRegular;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-size: 1.4em;
+    font-family: BebasNeueBold;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-family: BebasNeueBold;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 1.4em;
+    font-family: MyriadPro;
+    color: dimgrey;
+}
+
+p {
+	font-size: 1.2em;
+	font-family: MyriadPro;
+}
+
+q {
+	font-size: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    font-family: BebasNeueBook;
+    font-size: 1.4em;
+    color: black;
+}
+
+a:hover {
+    color: navy;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.container {
+    position: fixed;
+    background-color: white;
+    float: left;
+    width: 30%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.image-container {
+    width: 50%;
+    float: right;
+}
+
+.nav {
+    position: fixed;
+    padding-top: 25%;
+    width: 100%;
+    z-index: 1;
+}
