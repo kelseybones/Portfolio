@@ -118,3 +118,6 @@ a:hover {
     z-index: 1;
 }
 
+.next {
+    right: 0;
+}
