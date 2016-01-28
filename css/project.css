@@ -76,12 +76,12 @@ q {
 a {
     text-decoration: none;
     font-family: BebasNeueBook;
-    font-size: 1.4em;
+    font-size: 1em;
     color: black;
 }
 
 a:hover {
-    color: navy;
+    color: deepskyblue;
 }
 
 * {
@@ -117,3 +117,4 @@ a:hover {
     width: 100%;
     z-index: 1;
 }
+
