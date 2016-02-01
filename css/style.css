@@ -359,36 +359,52 @@ a {
   background-size: cover;
   min-width: 360px;
   min-height: 125px;
+  position: relative;
 }
 .row-small .project-personal:hover .hover {
   opacity: 0.8;
+}
+.row-small .project-personal:visited {
+  color: black;
 }
 .row-small .project-friendsscreen {
   background-image: url(../images/wdw.png);
   background-size: cover;
   min-height: 200px;
   min-width: 360px;
+  position: relative;
 }
 .row-small .project-friendsscreen:hover .hover {
   opacity: 0.8;
+}
+.row-small .project-friendsscreen:visited {
+  color: black;
 }
 .row-small .project-medical {
   background-image: url(../images/medical.png);
   background-size: cover;
   min-height: 200px;
   min-width: 360px;
+  position: relative;
 }
 .row-small .project-medical:hover .hover {
   opacity: 0.8;
+}
+.row-small .project-medical:visited {
+  color: black;
 }
 .row-small .project-vermillion {
   background-image: url(../images/vermillion.png);
   background-size: cover;
   min-height: 200px;
   min-width: 360px;
+  position: relative;
 }
 .row-small .project-vermillion:hover .hover {
   opacity: 0.8;
+}
+.row-small .project-vermillion:visited {
+  color: black;
 }
 .section-3 {
   height: 100%;
