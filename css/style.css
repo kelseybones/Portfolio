@@ -312,23 +312,23 @@ a {
 }
 .row-small .project-personal {
   background-image: url(../images/personal.png);
-  min-width: 360px;
+  min-width: 356px;
   min-height: 125px;
 }
 .row-small .project-friendsscreen {
   background-image: url(../images/wdw.png);
   min-height: 200px;
-  min-width: 360px;
+  min-width: 356px;
 }
 .row-small .project-medical {
   background-image: url(../images/medical.png);
   min-height: 200px;
-  min-width: 360px;
+  min-width: 356px;
 }
 .row-small .project-vermillion {
   background-image: url(../images/vermillion.png);
   min-height: 200px;
-  min-width: 360px;
+  min-width: 356px;
 }
 .section-3 {
   height: 100%;
