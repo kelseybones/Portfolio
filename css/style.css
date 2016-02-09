@@ -26,6 +26,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
@@ -341,30 +342,25 @@ a {
   font-family: BebasNeueBold;
   font-size: 2.2em;
 }
-.section-4 {
+footer.section-4 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
   width: 100%;
-  height: 100px;
   background-color: black;
   color: white;
+  padding: 35px;
 }
-.section-4 .bottom-nav {
-  padding-right: 50px;
-  padding-top: 35px;
-}
-.section-4 .bottom-nav li {
+footer.section-4 .bottom-nav li {
   text-decoration: none;
   display: inline;
   margin: 20px;
 }
-.section-4 .footer {
-  padding-top: 35px;
-  padding-left: 50px;
-}
-.section-4 a {
+footer.section-4 a {
   color: white;
   font-family: MyriadPro;
   font-size: 1.4em;
 }
-.section-4 a:hover {
+footer.section-4 a:hover {
   color: deepskyblue;
 }

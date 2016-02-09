@@ -31,6 +31,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -391,16 +392,17 @@ a {
     font-size: 2.2em;
 }
 
-.section-4 {
+footer.section-4 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
     width: 100%;
-    height: 100px;
     background-color: black;
     color: white;
+    padding: 35px;
     
-    .bottom-nav {
-        padding-right: 50px;
-        padding-top: 35px;
-        
+    .bottom-nav {        
         li {
             text-decoration: none;
             display: inline;
@@ -408,9 +410,7 @@ a {
         }
     }
     
-    .footer {
-        padding-top: 35px;
-        padding-left: 50px;
+    .copyright {
     }
     
     a {
