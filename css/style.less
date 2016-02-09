@@ -254,6 +254,14 @@ a {
         background-size: cover;
         position: relative;
         
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;
+        
+        img {
+            width: 100%;
+        }
+        
         .hover {
             position:absolute; 
             top:0px; 
@@ -275,17 +283,15 @@ a {
         }
     }
 }
-
+img {max-width:100%;}
 .row {
     width: 100%;
-    height: 600px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     
     .vertical-flow {
         flex-flow: column;
-        height: 100%;
     }
 
     .horizontal-flow {
@@ -295,70 +301,29 @@ a {
     .column66 {
         position: relative;
         flex: 2;
-        height: 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
     
     .column33 {
         position: relative;
         flex: 1;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
         
     .row50 {
         position: relative;
-        width: 100%;
         flex: 1;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
         
-    .project-weather {
-        background-image: url(../images/mockup.png);
-    }
-    
     .project-national {
-        background-image: url(../images/ng.png);
-    }
-
-    .project-corporate {
-        background-image: url(../images/corporate.png);
-    }
-    
-    .project-personal {
-        background-image: url(../images/personal.png);
-    } 
-}
-
-.row-small {
-    height: 360px!important;
-    display: flex;
-    
-    .project-space {
-        background-image: url(../images/space.png);
-        flex: 1;
-    }
-    
-    .project-friendsscreen {
-        background-image: url(../images/wdw.png);
-        flex: 1;
-    }
-    
-    .project-medical {
-        background-image: url(../images/medical.png);
-        flex: 1;
-
-    }
-    
-    .project-vermillion {
-        background-image: url(../images/vermillion.png);
-        flex: 1;
+        
     }
 }
 
