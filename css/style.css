@@ -229,7 +229,6 @@ a {
   color: black;
 }
 .section-2 .project {
-  background-size: cover;
   position: relative;
   flex-grow: 1;
   flex-shrink: 1;
@@ -270,7 +269,6 @@ img {
   flex-flow: row;
 }
 .row .column66 {
-  position: relative;
   flex: 2;
   display: flex;
   justify-content: flex-start;
