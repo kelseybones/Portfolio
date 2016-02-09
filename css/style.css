@@ -259,9 +259,6 @@ a {
 .section-2 .project:hover .hover {
   opacity: 0.8;
 }
-img {
-  max-width: 100%;
-}
 .row {
   width: 100%;
   display: flex;
