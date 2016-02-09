@@ -294,15 +294,15 @@ a {
 .row .project-corporate {
   background-image: url(../images/corporate.png);
 }
-.row .project-space {
-  background-image: url(../images/space.png);
+.row .project-personal {
+  background-image: url(../images/personal.png);
 }
 .row-small {
   height: 360px!important;
   display: flex;
 }
-.row-small .project-personal {
-  background-image: url(../images/personal.png);
+.row-small .project-space {
+  background-image: url(../images/space.png);
   flex: 1;
 }
 .row-small .project-friendsscreen {
