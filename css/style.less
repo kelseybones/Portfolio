@@ -425,6 +425,25 @@ footer.section-4 {
   }
       
   .row {
+        &.thirds {
+            & > .column66 {
+                min-width: 100%;
+                .column66 {
+                    min-width: 100%;
+                }
+                .column33 {
+                    min-width: 100%;
+                    display: flex;
+                    flex-flow: row;
+                    .project {
+                        width: 50%;
+                    }
+                }
+            }
+            & > .column33 {
+                min-width: 100%;
+            }
+        }
         &.quarters {
             .project {
                 min-width: 50%;

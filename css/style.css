@@ -360,6 +360,23 @@ footer.section-4 a:hover {
   .clear .divider {
     width: 40%;
   }
+  .row.thirds > .column66 {
+    min-width: 100%;
+  }
+  .row.thirds > .column66 .column66 {
+    min-width: 100%;
+  }
+  .row.thirds > .column66 .column33 {
+    min-width: 100%;
+    display: flex;
+    flex-flow: row;
+  }
+  .row.thirds > .column66 .column33 .project {
+    width: 50%;
+  }
+  .row.thirds > .column33 {
+    min-width: 100%;
+  }
   .row.quarters .project {
     min-width: 50%;
   }
