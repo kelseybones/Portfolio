@@ -325,9 +325,11 @@ img {max-width:100%;}
         justify-content: flex-start;
         align-items: flex-start;
     }
-        
-    .project-national {
-        
+    
+    &.quarters {
+        .project {
+            min-width: 25%;
+        }
     }
 }
 
@@ -387,47 +389,57 @@ footer.section-4 {
     }
 }
 
-///* ----------- iPhone 6 ----------- */
-
-/* Portrait and Landscape */
+/* ----------- Landscape iPads ----------- */
 @media only screen 
-  and (max-device-width: 667px) {
-      
-      .clear {
-          font-size: 0.5em;
-          .divider {
-              width: 40%;
-          }
+  and (max-device-width: 1024px) {
+  .section-3 {
+      .content {
+          width: 100%;
       }
-      
-      footer.section-4 {
-          
-      }
-      
-}
-
-@media only screen 
-  and (max-device-width: 600px) {      
-      footer.section-4 {
-          justify-content: center;
-      }     
+  }
 }
 
 @media only screen 
   and (max-device-width: 750px) {      
-      footer.section-4 {
-          .bottom-nav ul li {
-              margin: 0 4px;
-          }
-      }     
+  footer.section-4 {
+      .bottom-nav ul li {
+          margin: 0 4px;
+      }
+  }     
 }
 
-/* ----------- Landscape iPads ----------- */
 @media only screen 
-  and (max-device-width: 1024px) {
-      .section-3 {
-          .content {
-              width: 100%;
-          }
+  and (max-device-width: 600px) {      
+  footer.section-4 {
+      justify-content: center;
+  }     
+}
+
+@media only screen 
+  and (max-device-width: 667px) {
+  .clear {
+      font-size: 0.5em;
+      .divider {
+          width: 40%;
       }
+  }
+      
+  .row {
+        &.quarters {
+            .project {
+                min-width: 50%;
+            }
+        }
+    }
+}
+
+@media only screen 
+  and (max-device-width: 400px) {
+    .row {
+        &.quarters {
+            .project {
+                min-width: 100%;
+            }
+        }
+    }
 }

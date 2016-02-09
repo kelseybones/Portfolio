@@ -293,6 +293,9 @@ img {
   justify-content: flex-start;
   align-items: flex-start;
 }
+.row.quarters .project {
+  min-width: 25%;
+}
 .section-3 {
   padding: 50px;
   background-color: white;
@@ -334,18 +337,10 @@ footer.section-4 a {
 footer.section-4 a:hover {
   color: deepskyblue;
 }
-/* Portrait and Landscape */
-@media only screen and (max-device-width: 667px) {
-  .clear {
-    font-size: 0.5em;
-  }
-  .clear .divider {
-    width: 40%;
-  }
-}
-@media only screen and (max-device-width: 600px) {
-  footer.section-4 {
-    justify-content: center;
+/* ----------- Landscape iPads ----------- */
+@media only screen and (max-device-width: 1024px) {
+  .section-3 .content {
+    width: 100%;
   }
 }
 @media only screen and (max-device-width: 750px) {
@@ -353,9 +348,24 @@ footer.section-4 a:hover {
     margin: 0 4px;
   }
 }
-/* ----------- Landscape iPads ----------- */
-@media only screen and (max-device-width: 1024px) {
-  .section-3 .content {
-    width: 100%;
+@media only screen and (max-device-width: 600px) {
+  footer.section-4 {
+    justify-content: center;
+  }
+}
+@media only screen and (max-device-width: 667px) {
+  .clear {
+    font-size: 0.5em;
+  }
+  .clear .divider {
+    width: 40%;
+  }
+  .row.quarters .project {
+    min-width: 50%;
+  }
+}
+@media only screen and (max-device-width: 400px) {
+  .row.quarters .project {
+    min-width: 100%;
   }
 }
