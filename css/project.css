@@ -112,14 +112,19 @@ a:hover {
 }
 
 .nav {
+    height: 100%;
     position: fixed;
-    padding-top: 25%;
-    width: 100%;
     z-index: 1;
+    display: flex;
+    align-items: center;
 }
 
 .next {
     right: 0;
+}
+
+.previous {
+    left: 0;
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
