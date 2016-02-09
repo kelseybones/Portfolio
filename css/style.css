@@ -113,6 +113,12 @@ a {
   margin-left: -310px;
   text-align: center;
 }
+.clear .divider {
+  margin: 0px auto 8px auto;
+  height: 1px;
+  width: 80%;
+  border-bottom: 2px solid #ffffff;
+}
 .clear.grey {
   background-color: white;
   height: 60%;
@@ -288,28 +294,23 @@ img {
   align-items: flex-start;
 }
 .section-3 {
-  height: 100%;
-  width: 100%;
-  padding-bottom: 30px;
+  padding: 50px;
   background-color: white;
 }
-.section-3 a {
-  color: black;
-}
-.section-3 a:hover {
-  color: deepskyblue;
-}
-.boxLeft {
+.section-3 .content {
   width: 45%;
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-bottom: 50px;
-  margin: 0;
+  text-align: left;
 }
-.boxLeft h2 {
+.section-3 .content h2 {
   color: black;
   font-family: BebasNeueBold;
   font-size: 2.2em;
+}
+.section-3 .content a {
+  color: black;
+}
+.section-3 .content a:hover {
+  color: deepskyblue;
 }
 footer.section-4 {
   display: flex;
@@ -332,4 +333,29 @@ footer.section-4 a {
 }
 footer.section-4 a:hover {
   color: deepskyblue;
+}
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 667px) {
+  .clear {
+    font-size: 0.5em;
+  }
+  .clear .divider {
+    width: 40%;
+  }
+}
+@media only screen and (max-device-width: 600px) {
+  footer.section-4 {
+    justify-content: center;
+  }
+}
+@media only screen and (max-device-width: 750px) {
+  footer.section-4 .bottom-nav ul li {
+    margin: 0 4px;
+  }
+}
+/* ----------- Landscape iPads ----------- */
+@media only screen and (max-device-width: 1024px) {
+  .section-3 .content {
+    width: 100%;
+  }
 }
