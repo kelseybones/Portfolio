@@ -335,22 +335,22 @@ footer.section-4 a:hover {
   color: deepskyblue;
 }
 /* ----------- Landscape iPads ----------- */
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .section-3 .content {
     width: 100%;
   }
 }
-@media only screen and (max-device-width: 750px) {
+@media only screen and (max-width: 750px) {
   footer.section-4 .bottom-nav ul li {
     margin: 0 4px;
   }
 }
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-width: 600px) {
   footer.section-4 {
     justify-content: center;
   }
 }
-@media only screen and (max-device-width: 667px) {
+@media only screen and (max-width: 667px) {
   .clear {
     font-size: 0.5em;
   }
@@ -378,7 +378,7 @@ footer.section-4 a:hover {
     min-width: 50%;
   }
 }
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-width: 400px) {
   .row.quarters .project {
     min-width: 100%;
   }
