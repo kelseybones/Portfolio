@@ -358,13 +358,13 @@ footer.section-4 a:hover {
     width: 40%;
   }
   .row.thirds > .column66 {
-    min-width: 100%;
+    min-device-width: 100%;
   }
   .row.thirds > .column66 .column66 {
-    min-width: 100%;
+    min-device-width: 100%;
   }
   .row.thirds > .column66 .column33 {
-    min-width: 100%;
+    min-device-width: 100%;
     display: flex;
     flex-flow: row;
   }
@@ -372,14 +372,14 @@ footer.section-4 a:hover {
     width: 50%;
   }
   .row.thirds > .column33 {
-    min-width: 100%;
+    min-device-width: 100%;
   }
   .row.quarters .project {
-    min-width: 50%;
+    min-device-width: 50%;
   }
 }
 @media only screen and (max-width: 400px) {
   .row.quarters .project {
-    min-width: 100%;
+    min-device-width: 100%;
   }
 }
