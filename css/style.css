@@ -348,6 +348,7 @@ footer.section-4 a:hover {
 @media only screen and (max-width: 600px) {
   footer.section-4 {
     justify-content: center;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 667px) {
