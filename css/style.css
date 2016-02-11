@@ -230,6 +230,7 @@ a {
 }
 .section-2 a {
   color: black;
+  font-size: 1.5em;
 }
 .section-2 a:visited {
   color: black;
