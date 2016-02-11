@@ -315,6 +315,7 @@ a {
     &.quarters {
         .project {
             min-width: 25%;
+            flex-basis: 25%;// Safari bug fix
         }
     }
 }
@@ -415,11 +416,14 @@ footer.section-4 {
         &.thirds {
             & > .column66 {
                 min-width: 100%;
+                flex-basis: 100%;// Safari bug fix
                 .column66 {
                     min-width: 100%;
+                    flex-basis: 100%;// Safari bug fix
                 }
                 .column33 {
                     min-width: 100%;
+                    flex-basis: 100%;// Safari bug fix
                     display: flex;
                     flex-flow: row;
                     .project {
@@ -429,11 +433,13 @@ footer.section-4 {
             }
             & > .column33 {
                 min-width: 100%;
+                flex-basis: 100%;// Safari bug fix
             }
         }
         &.quarters {
             .project {
                 min-width: 50%;
+                flex-basis: 50%;// Safari bug fix
             }
         }
     }
@@ -445,6 +451,7 @@ footer.section-4 {
         &.quarters {
             .project {
                 min-width: 100%;
+                flex-basis: 100%;// Safari bug fix
             }
         }
     }
