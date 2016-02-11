@@ -67,6 +67,15 @@ a:hover {
   padding: 0;
   box-sizing: border-box;
 }
+nav a {
+  font-size: 2em;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  position: fixed;
+  padding-right: 10px;
+  padding-top: 10px;
+}
 .outer-container {
   display: -webkit-box;
   display: -webkit-flex;
