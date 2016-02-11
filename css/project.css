@@ -101,6 +101,9 @@ a:hover {
   width: 50%;
   padding-bottom: 60px;
 }
+.outer-container .image-container img {
+  width: 70%;
+}
 .nav {
   width: 28px;
   height: 100%;
