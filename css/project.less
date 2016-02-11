@@ -1,0 +1,170 @@
+// autoprefixer: true
+@font-face {
+    font-family: BebasNeueBold;
+    src: url('../fonts/BebasNeue Bold.otf');
+}
+
+@font-face {
+    font-family: BebasNeueBook;
+    src: url('../fonts/BebasNeue Book.otf');
+}
+
+@font-face {
+    font-family: BebasNeueLight;
+    src: url('../fonts/BebasNeue Light.otf');
+}
+
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url('../fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+    font-family: BebasNeueThin;
+    src: url('../fonts/BebasNeue Thin.otf');
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url('../fonts/MyriadPro-Regular.otf');
+}
+
+body {
+    margin: 0;
+    font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 4vh;
+	font-family:  BebasNeueRegular;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-size: 1.4em;
+    font-family: BebasNeueBold;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-family: BebasNeueBold;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 1.4em;
+    font-family: MyriadPro;
+    color: dimgrey;
+}
+
+p {
+	font-size: 1.2em;
+	font-family: MyriadPro;
+}
+
+q {
+	font-size: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    font-family: MyriadPro;
+    font-size: 1em;
+    color: black;
+}
+
+a:hover {
+    color: deepskyblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    
+    .container {
+        flex: 1;
+        background-color: white;
+        width: 45%;
+        padding: 60px;
+    }
+
+    .image-container {
+        flex: 1;
+        width: 50%;
+        padding-bottom: 60px;
+    }
+}
+
+.nav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    
+    &.next {
+        top: 0;
+        right: 0;
+    }
+    
+    &.previous {
+        top: 0;
+        left: 0;
+    }
+}
+
+@media only screen 
+  and (max-width: 900px) {
+      .outer-container {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .container {
+              width:100%;
+          }
+          
+          .image-container {
+              width:100%;
+              text-align: center;
+          }
+      }
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+    opacity:0; 
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration: 1s;
+}
+
+.fade-in.one {
+    animation-delay: 0.3s;
+}
+
+.fade-in.two {
+    animation-delay: 0.5s;
+}
+
+.fade-in.three {
+    animation-delay: 0.7s;
+}
+
+.fade-in.four {
+    animation-delay: 0.9s;
+}
+
+.fade-in.five {
+    animation-delay: 1s;
+}
