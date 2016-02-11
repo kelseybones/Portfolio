@@ -102,15 +102,14 @@ a {
   display: block;
 }
 .clear {
-  padding: 2.875em 1.875em 1.875em;
   position: absolute;
   z-index: 1000;
   top: 50%;
-  width: 600px;
-  height: 250px;
   left: 50%;
-  margin-top: -155px;
-  margin-left: -310px;
+  width: 44em;
+  height: 250px;
+  margin-top: -125px;
+  margin-left: -22em;
   text-align: center;
 }
 .clear .divider {
