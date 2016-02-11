@@ -154,9 +154,8 @@ a {
 }
 .social a {
   opacity: 0.3;
-  transition: opacity 0.25s ease-in-out;
-  -moz-transition: opacity 0.25s ease-in-out;
   -webkit-transition: opacity 0.25s ease-in-out;
+          transition: opacity 0.25s ease-in-out;
 }
 .social a:hover {
   opacity: 0.8;
@@ -189,23 +188,23 @@ a {
 .fade-in {
   opacity: 0;
   -webkit-animation: fadeIn ease-in 1;
-  animation: fadeIn ease-in 1;
+          animation: fadeIn ease-in 1;
   -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
   -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+          animation-duration: 1s;
 }
 .fade-in.one {
   -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .fade-in.two {
   -webkit-animation-delay: 0.45s;
-  animation-delay: 0.45s;
+          animation-delay: 0.45s;
 }
 .fade-in.three {
   -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
 /* ----end ---- */
 .section-2 {
