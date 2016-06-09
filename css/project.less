@@ -1,80 +1,52 @@
 // autoprefixer: true
 @font-face {
-    font-family: BebasNeueBold;
-    src: url('../fonts/BebasNeue Bold.otf');
+    font-family: brownbold;
+    src: url(/fonts/brown-bold.ttf)
 }
-
 @font-face {
-    font-family: BebasNeueBook;
-    src: url('../fonts/BebasNeue Book.otf');
-}
-
-@font-face {
-    font-family: BebasNeueLight;
-    src: url('../fonts/BebasNeue Light.otf');
-}
-
-@font-face {
-    font-family: BebasNeueRegular;
-    src: url('../fonts/BebasNeue Regular.otf');
-}
-
-@font-face {
-    font-family: BebasNeueThin;
-    src: url('../fonts/BebasNeue Thin.otf');
-}
-
-@font-face {
-    font-family: MyriadPro;
-    src: url('../fonts/MyriadPro-Regular.otf');
+    font-family: brownlight;
+    src: url(/fonts/brownlight-regular.ttf)
 }
 
 body {
+    background-color: #172327;
     margin: 0;
-    font:normal 75% Arial, Helvetica, sans-serif;
 }
 
 h1 {
-	font-size: 4vh;
-	font-family:  BebasNeueRegular;
+    color: white;
+	font-size: 2em;
+    font-family: brownbold;
 	letter-spacing: 2px;
-}
-
-h2 {
-	font-size: 1.4em;
-    font-family: BebasNeueBold;
-}
-
-h3 {
-    font-size: 1.6em;
-    font-family: BebasNeueBold;
-    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 h4 {
-    font-size: 1.4em;
-    font-family: MyriadPro;
-    color: dimgrey;
+    font-size: 1.3em;
+    font-family: brownlight;
+    letter-spacing: 1.5px;
+    line-height: 120%;
+    font-weight: 200;
+    color: white;
 }
 
 p {
 	font-size: 1.2em;
-	font-family: MyriadPro;
-}
-
-q {
-	font-size: 1.6em;
+	font-family: bownlight;
 }
 
 a {
     text-decoration: none;
-    font-family: MyriadPro;
+    text-transform: uppercase;
+    font-family: brownbold;
     font-size: 1em;
-    color: black;
+    color: lightgrey;;
+    transition: color 0.5s ease;
 }
 
 a:hover {
     color: deepskyblue;
+    cursor: pointer;
 }
 
 * {
@@ -85,12 +57,12 @@ a:hover {
 
 nav {
     a {
-        font-size: 2em;
+        font-size: 1.5em;
         top: 0;
         right: 0;
         z-index: 1;
         position: fixed;
-        padding-right: 10px;
+        padding-right: 15px;
         padding-top: 10px;
     }
 }
@@ -102,8 +74,8 @@ nav {
     align-content: flex-start;
     
     .container {
+        background-color: #172327;
         flex: 1;
-        background-color: white;
         width: 45%;
         padding: 60px;
     }
@@ -111,16 +83,16 @@ nav {
     .image-container {
         flex: 1;
         width: 50%;
-        padding-bottom: 60px;
+        padding-bottom: 10px;
         
         img {
-            width: 70%;
+            width: 100%;
         }
     }
 }
 
 .nav {
-    width: 28px;
+    width: 20px;
     height: 100%;
     position: fixed;
     z-index: 1;
