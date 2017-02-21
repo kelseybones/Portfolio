@@ -98,6 +98,10 @@ a {
   height: 60%;
   top: 40%;
 }
+
+.white {
+    color: white;
+}
 /* ---- particles.js container ---- */
 #particles-js {
   position: absolute;
@@ -333,16 +337,16 @@ a {
 .section-3 .content h2 {
   color: white;
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   font-family: brownbold;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 .section-3 .content a {
-  color: white;
+  color: deepskyblue;
 }
 .section-3 .content a:hover {
-  color: deepskyblue;
+  color: white;
 }
 footer {
   display: -webkit-box;
